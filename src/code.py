@@ -35,7 +35,7 @@ while max_tries > 0:
                 print ("Lower")
                 #Ask the user for a new guess
                 guess = int(input("Guess a number under 100: "))
-    #The loop executed 1 time (10 - 1 = 9 tries left)
+    #The loop executed (10 - 1 = 9 tries left)
     max_tries -= 1
 if max_tries == 0:
     #If no tries are left, print:
